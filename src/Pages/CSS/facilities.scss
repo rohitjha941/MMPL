@@ -1,0 +1,63 @@
+
+@mixin desktop {
+    @media(max-width: 960px)
+    {
+        @content;
+    }
+    
+}
+    
+ 
+.Machines
+{
+    border : 0.05rem solid black;
+    border-radius: 1rem ;
+    margin:0.4rem 0 2rem 0 ;
+    padding: 1rem;
+    h4{
+        font-weight: bold;
+    }
+
+    @include desktop{
+       margin : 1.5rem 0 0 0;
+       padding: 0;
+
+       font-size:1rem;
+       
+     }
+
+    div
+    {
+        
+        display : grid;
+        grid-template-columns: auto auto;
+        @include desktop{
+            display:block;
+           
+         }
+        div
+        {
+            
+            font-size: 1.3rem;
+            color:black;
+            img{
+                width:25rem;
+                @include desktop{
+                    width:90%;
+                 
+                   
+                 }
+            }
+            text-align: justify;
+           
+            padding : 1rem;
+        }
+
+      
+    }
+}
+
+.main_faci
+{
+    padding : 1.5rem ;
+}  

@@ -1,0 +1,60 @@
+.top {
+  width: 100%;
+  border: 0.11rem solid black;
+  border-radius: 2rem;
+  margin: 0.5rem;
+  padding: 0.4rem;
+}
+
+@media (max-width: 960px) {
+  .top {
+    margin: 0.5rem 0 0 0;
+  }
+}
+
+.Welcome_text {
+  border: 0.05rem solid black;
+  padding: 1.5rem;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.font_coursole .scroll {
+  width: 60%;
+}
+
+@media (max-width: 960px) {
+  .font_coursole .scroll {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .font_coursole {
+    padding: 1.5rem 0 0.1rem 0;
+  }
+}
+
+.font_coursole .slick-dots {
+  color: black;
+}
+
+.teat {
+  height: 20rem;
+}
+
+@media (max-width: 960px) {
+  .homes {
+    margin: 0 0.8rem 0 0.8rem;
+  }
+}
+
+marquee {
+  color: black;
+}
+
+marquee img {
+  width: 3.5rem;
+}
+/*# sourceMappingURL=home.css.map */

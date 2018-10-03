@@ -1,0 +1,82 @@
+.head {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  overflow-x: hidden;
+  background-color: #2699FB;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35% auto;
+      grid-template-columns: 35% auto;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  margin: 0;
+  font-size: 1.2rem;
+  z-index: 3;
+}
+
+@media (max-width: 1090px) {
+  .head {
+    -ms-grid-columns: 90% 10%;
+        grid-template-columns: 90% 10%;
+  }
+}
+
+.head .Mobile_Menu_Button {
+  display: none;
+}
+
+@media (max-width: 1090px) {
+  .head .Mobile_Menu_Button {
+    display: inline;
+  }
+}
+
+.head div h3 {
+  color: white;
+  font-weight: bold;
+}
+
+.head span {
+  padding: 0;
+  margin: 0;
+}
+
+.head a {
+  color: white;
+  border-top: 0.2rem solid #2699FB;
+  padding: 0 0.5rem 0 0.5rem;
+  margin: 0.5rem;
+}
+
+@media (max-width: 1090px) {
+  .navigation {
+    display: none;
+  }
+}
+
+.Mobile_Menu {
+  display: none;
+}
+
+@media (max-width: 1090px) {
+  .Mobile_Menu {
+    display: none;
+  }
+}
+
+#menu_button {
+  cursor: pointer;
+}
+
+#close_button {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1090px) {
+  #close_button {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header.css.map */

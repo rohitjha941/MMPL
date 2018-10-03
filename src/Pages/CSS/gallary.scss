@@ -1,0 +1,82 @@
+
+@mixin desktop {
+    @media(min-width: 960px)
+    {
+        @content;
+    }
+    
+}
+
+
+@mixin desktop2 {
+    @media(min-width: 1200px)
+    {
+        @content;
+    }
+    
+}
+
+
+@mixin desktop3 {
+    @media(min-width: 1460px)
+    {
+        @content;
+    }
+    
+}
+
+
+
+
+
+.gal{
+  
+
+
+    div {
+
+
+
+        img{
+            
+
+            align-self: center;
+            width: 90%;
+            margin: 1rem 0 1rem 0 ;
+
+
+            @include desktop{
+                width: 23rem;
+                margin: 1rem;
+            }
+            
+            @include desktop2{
+                width: 30rem;
+                margin: 1rem;
+            }
+
+            @include desktop3{
+                width: 25rem;
+                margin: 1rem;
+            }
+
+             
+        }
+
+    }
+
+        @include desktop{
+            
+        padding:1.5rem 0 1.5rem 0 ;
+        display:grid;
+        grid-template-columns: auto auto;
+        }
+
+        @include desktop3{
+            padding:2rem 0 2rem 0 ;
+            display:grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 0.3rem;
+        }
+}
+

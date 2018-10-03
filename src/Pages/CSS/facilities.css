@@ -1,0 +1,53 @@
+.Machines {
+  border: 0.05rem solid black;
+  border-radius: 1rem;
+  margin: 0.4rem 0 2rem 0;
+  padding: 1rem;
+}
+
+.Machines h4 {
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .Machines {
+    margin: 1.5rem 0 0 0;
+    padding: 0;
+    font-size: 1rem;
+  }
+}
+
+.Machines div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+@media (max-width: 960px) {
+  .Machines div {
+    display: block;
+  }
+}
+
+.Machines div div {
+  font-size: 1.3rem;
+  color: black;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.Machines div div img {
+  width: 25rem;
+}
+
+@media (max-width: 960px) {
+  .Machines div div img {
+    width: 90%;
+  }
+}
+
+.main_faci {
+  padding: 1.5rem;
+}
+/*# sourceMappingURL=facilities.css.map */

@@ -1,0 +1,36 @@
+@mixin desktop {
+    @media(max-width: 960px)
+    {
+        @content;
+    }
+    
+}
+
+
+.research
+{
+    .Project{
+
+        table{
+            tr{
+                td ,th {
+                    font-size:1.1rem;
+                   
+                    color:black;
+                  
+                }
+            }
+        }
+
+
+        min-height: 67vh;
+
+        @include desktop{
+
+             min-height: 1vh;
+         }
+        
+     
+    }
+   
+}

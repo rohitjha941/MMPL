@@ -1,0 +1,16 @@
+.Abt {
+  text-align: justify;
+  padding: 2rem;
+  min-height: 74.5vh;
+}
+
+.Abt h3 {
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .Abt {
+    padding: 0.6rem;
+  }
+}
+/*# sourceMappingURL=about.css.map */

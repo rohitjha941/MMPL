@@ -1,0 +1,95 @@
+$primary_color : #2699FB;
+$desktop:840px;
+
+@mixin desktop {
+    @media(max-width: 1090px)
+    {
+        @content;
+    }
+    
+}
+
+.head {
+    position:fixed;
+    width:100vw;
+    top:0;
+    overflow-x:  hidden;
+    background-color:$primary_color;
+    color:white;
+    display: grid;
+    grid-template-columns: 35% auto;
+    padding: 0.4rem 1rem 0.4rem 1rem ;
+    margin:0;
+    font-size: 1.2rem;
+    z-index: 3;
+
+    @include desktop{
+        grid-template-columns: 90% 10%;
+    }
+
+    .Mobile_Menu_Button
+    {
+        display: none;
+        @include desktop{
+            display:inline;
+        }
+    }
+
+    div{
+        h3{
+            color:white;
+            font-weight: bold;
+        }}
+
+
+
+   span{
+     padding:0;
+     margin:0;
+   }
+    
+   a{
+       color :white;
+       border-top: 0.2rem solid $primary_color;
+       padding: 0 0.5rem 0 0.5rem;
+       margin:0.5rem;
+       
+
+      
+   }
+
+}
+
+ 
+.navigation
+{
+    @include desktop{
+        display: none;
+    }
+}
+
+
+.Mobile_Menu
+{
+    display: none;
+    @include desktop{
+        display: none;
+    
+    }
+}
+
+
+#menu_button{
+   cursor: pointer; 
+}
+
+#close_button
+{
+    
+    display: none;
+    @include desktop{
+        display: none;
+    }
+    cursor: pointer;
+}
+

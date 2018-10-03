@@ -1,0 +1,15 @@
+.research .Project {
+  min-height: 67vh;
+}
+
+.research .Project table tr td, .research .Project table tr th {
+  font-size: 1.1rem;
+  color: black;
+}
+
+@media (max-width: 960px) {
+  .research .Project {
+    min-height: 1vh;
+  }
+}
+/*# sourceMappingURL=research.css.map */

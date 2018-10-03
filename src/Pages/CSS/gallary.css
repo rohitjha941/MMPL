@@ -1,0 +1,50 @@
+.gal div img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 90%;
+  margin: 1rem 0 1rem 0;
+}
+
+@media (min-width: 960px) {
+  .gal div img {
+    width: 23rem;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gal div img {
+    width: 30rem;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1460px) {
+  .gal div img {
+    width: 25rem;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .gal {
+    padding: 1.5rem 0 1.5rem 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 1460px) {
+  .gal {
+    padding: 2rem 0 2rem 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    grid-column-gap: 0.3rem;
+  }
+}
+/*# sourceMappingURL=gallary.css.map */
