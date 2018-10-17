@@ -13,7 +13,7 @@ import Footer from "./PageComponent/footer"
 import Faculty  from "./Pages/faculty"
 import Patents  from "./Pages/patents"
 import Project  from "./Pages/project"
-
+ 
 import { BrowserRouter as Router, Route,Switch} from "react-router-dom";
  
 

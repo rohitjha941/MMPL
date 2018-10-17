@@ -2,8 +2,10 @@ import React from 'react';
 import "./CSS/people.css"
 import { Tabs } from 'antd';
 import 'antd/dist/antd.css';
-const TabPane = Tabs.TabPane;
 
+
+
+const TabPane = Tabs.TabPane;
 
 
 export default class about extends React.Component{ 
@@ -11,8 +13,9 @@ export default class about extends React.Component{
         return (
             <div>
 
+                             
+
                 <div class = "people_class">
-                                
                                 <div>
                                     <center>
                                         <img src = "http://people.iitr.ernet.in/facultyphoto/akshafme_Dk2qDMR.jpg"/>

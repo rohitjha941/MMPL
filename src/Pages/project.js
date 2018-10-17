@@ -1,10 +1,12 @@
 import React from 'react'; 
 import "./CSS/research.css"
 import 'antd/dist/antd.css'; 
+import Sidebar from "../PageComponent/sidebar"
 export default class about extends React.Component{
     render(){
         return (
             <div className ="research">
+            <Sidebar />
                     <div className = "Project">
                   <table className = " table table-hover table-responsive">
                         <tr>

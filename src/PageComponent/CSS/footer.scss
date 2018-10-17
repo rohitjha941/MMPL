@@ -23,6 +23,7 @@ $primary_color :  #2699FB ;
     left:0;
     z-index: 3;
     padding:1rem;
+    
 
     @include desktop{
       grid-template-columns: auto;

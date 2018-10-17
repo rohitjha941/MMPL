@@ -1,0 +1,25 @@
+.side {
+  height: 100vh;
+  z-index: 2;
+  width: 10rem;
+  background-color: #2699FB;
+  left: 0;
+  position: fixed;
+  top: 0rem;
+  padding-top: 5rem;
+}
+
+.side a {
+  color: white;
+  padding: 1rem;
+}
+
+.side a:hover {
+  color: white;
+}
+
+.foot {
+  z-index: 1000;
+  position: relative;
+}
+/*# sourceMappingURL=sidebar.css.map */

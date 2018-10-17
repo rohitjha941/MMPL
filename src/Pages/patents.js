@@ -1,10 +1,14 @@
 import React from 'react'; 
 import "./CSS/research.css"
 import 'antd/dist/antd.css'; 
+import Sidebar from "../PageComponent/sidebar"
 export default class about extends React.Component{
     render(){
         return (
+            <div>
+            < Sidebar />
             <div className ="research">
+
                  <div className = "Project">
                   <table className = " table table-hover table-responsive">
                         <tr>
@@ -196,7 +200,7 @@ Mechanical safety device for thread failure in power screw based lifts
                 </div>
 
             </div>
-
+            </div>
         );
     }
 }
