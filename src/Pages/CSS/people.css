@@ -47,8 +47,8 @@
 .phd {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 10% auto;
-      grid-template-columns: 10% auto;
+  -ms-grid-columns: 25% auto;
+      grid-template-columns: 25% auto;
 }
 
 .phd div center img {

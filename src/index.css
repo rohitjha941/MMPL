@@ -3,11 +3,16 @@ body ,html
     padding:0;
     margin:0;
     overflow-x: hidden;
+
+}
+body {
+    background-color: lighten(lightgray,70%);;
 }
 .main {
     margin-left :10rem;
     margin-right: 10rem;
     font-size: 1.2rem;
+    
 
 }
 

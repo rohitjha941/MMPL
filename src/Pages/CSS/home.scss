@@ -35,26 +35,25 @@
     
 }
  
+ 
   
  
 .font_coursole
 {
  
+    padding :1rem;
     .scroll{
+        
+          
         width:60%;
-       
         @include desktop{
             height: auto;
-            width: 100%;
-      
-          
-               
+            width: 100%;               
            }
     }
 
     @include desktop{
         padding :1.5rem 0 0.1rem 0;
-       
            
            
        }

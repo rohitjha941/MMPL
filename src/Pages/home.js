@@ -31,7 +31,7 @@ export default class
                 
 
                 <div className  = "Welcome_text">
-                    <h3> <center>Welcome to Microwave Processing Material Laboratory </center> </h3>
+                    <h3> <center>Welcome to Microwave Materials Processing  Laboratory </center> </h3>
                     Dr Apurbba Kumar Sharma Welcomes you to our website of Microwave Material Laboratory. Our reasearch focuses on processing of materials through microwave energy. Processing includes microwave casting, microwave drilling,  microwave joining,  microwave cladding, microwave sintering etc.
                 </div>
             </div>

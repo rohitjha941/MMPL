@@ -8,8 +8,8 @@ const People_Menu = (
     <Menu>
             <Menu.Item key="Faculty"> <NavLink to ="/faculty">Principle Investigator</NavLink> </Menu.Item>
             <Menu.Item key="phd"> <NavLink to ="/phd">Ph.D</NavLink></Menu.Item>
-            <Menu.Item key=" ">M.Tech</Menu.Item>
-            <Menu.Item key=" ">B.Tech</Menu.Item>
+            <Menu.Item key="Mtech"><NavLink to = "/mtech">M.Tech</NavLink> </Menu.Item>
+            <Menu.Item key="btech "><NavLink to = "/btech">B.Tech</NavLink></Menu.Item>
     </Menu>
   ); 
 

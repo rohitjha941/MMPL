@@ -1,6 +1,7 @@
 import React from 'react'; 
 import "./CSS/people.css"
 import Radharaman from "./CSS/gallary/peple/Radharaman.png"
+import  Sider from "../PageComponent/sidebar_people"
 import { Tabs } from 'antd';
 import 'antd/dist/antd.css';
 const TabPane = Tabs.TabPane;
@@ -11,7 +12,12 @@ export default class about extends React.Component{
     render(){
         return (
             <div>
+            {/*
+                <div class = "sider">
 
+                <Sider /></div>
+            */}
+                
                 <div className = "people_class phd">
                                     
                     <div>
