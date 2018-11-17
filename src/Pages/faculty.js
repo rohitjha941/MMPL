@@ -4,9 +4,7 @@ import { Tabs } from 'antd';
 import 'antd/dist/antd.css';
 
 
-
-const TabPane = Tabs.TabPane;
-
+ 
 
 export default class about extends React.Component{ 
     render(){

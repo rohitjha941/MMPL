@@ -1,0 +1,18 @@
+.menu {
+  border-radius: none !important;
+  padding: 0 10rem 0 10rem !important;
+  border: none !important;
+}
+
+.right {
+  padding-right: 0 !important;
+}
+
+.item {
+  font-size: 1.5rem;
+}
+
+.ui.inverted.blue.menu, .ui.inverted.menu .blue.active.item {
+  background-color: #2699FB;
+}
+/*# sourceMappingURL=header2.css.map */

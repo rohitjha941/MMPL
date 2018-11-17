@@ -6,13 +6,7 @@ const google = window.google
 
 
 export default class about extends React.Component{
-    static defaultProps = {
-        center: {
-          lat:29.86342181,
-          lng: 77.89388889
-        },
-        zoom: 15
-      };
+ 
     
     render(){
       

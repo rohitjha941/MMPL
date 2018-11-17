@@ -1,12 +1,11 @@
 import React from 'react'; 
 import "./CSS/research.css"
 import 'antd/dist/antd.css'; 
-import Sidebar from "../PageComponent/sidebar"
+ 
 export default class about extends React.Component{
     render(){
         return (
-            <div>
-            < Sidebar />
+            <div> 
             <div className ="research">
 
                  <div className = "Project">
