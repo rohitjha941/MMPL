@@ -9,13 +9,13 @@
   display: grid;
   -ms-grid-columns: 35% auto;
       grid-template-columns: 35% auto;
-  padding: 0.4rem 1rem 0.4rem 1rem;
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.5em;
+  padding: 1rem 10rem;
   z-index: 3;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 840px) {
   .head {
     -ms-grid-columns: 90% 10%;
         grid-template-columns: 90% 10%;
@@ -26,7 +26,7 @@
   display: none;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 840px) {
   .head .Mobile_Menu_Button {
     display: inline;
   }
@@ -43,13 +43,17 @@
 }
 
 .head a {
-  color: white;
+  color: #f7f7f7;
   border-top: 0.2rem solid #2699FB;
   padding: 0 0.5rem 0 0.5rem;
   margin: 0.5rem;
 }
 
-@media (max-width: 1090px) {
+.head .active {
+  color: white;
+}
+
+@media (max-width: 840px) {
   .navigation {
     display: none;
   }
@@ -59,24 +63,12 @@
   display: none;
 }
 
-@media (max-width: 1090px) {
-  .Mobile_Menu {
-    display: none;
-  }
-}
-
-#menu_button {
-  cursor: pointer;
+.Mobile_Menu table {
+  margin-top: 1rem;
 }
 
 #close_button {
   display: none;
   cursor: pointer;
-}
-
-@media (max-width: 1090px) {
-  #close_button {
-    display: none;
-  }
 }
 /*# sourceMappingURL=header.css.map */

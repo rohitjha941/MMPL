@@ -7,8 +7,8 @@ import Facility from "./Pages/facilities"
 import Research from "./Pages/research"
 import Events from "./Pages/events"
 import Phd from "./Pages/phd"
-import Contact from "./Pages/contact"
-import Header from "./PageComponent/header2"
+ 
+import Header from "./PageComponent/header"
 import Footer from "./PageComponent/footer"
 import Faculty  from "./Pages/faculty"
 import Patents  from "./Pages/patents"
@@ -37,7 +37,7 @@ class Test extends React.Component{
                             <Route path = "/facilities" component = {Facility} />
                             <Route path = "/gallary" component = {Gallary} />
                             <Route path = "/events" component = {Events} />
-                            <Route path = "/contact" component = {Contact} />
+                            
                             <Route path = "/projects" component = {Project} />
                             <Route path = "/patents" component = {Patents} />
                             <Route path = "/faculty" component = {Faculty} />

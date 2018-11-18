@@ -1,8 +1,6 @@
 import React from 'react'; 
 import "./CSS/gallary.css"
 
-import { Card } from 'antd';
-import 'antd/dist/antd.css';
 
 
 import img1 from "./CSS/gallary/gallary/1.JPG";
