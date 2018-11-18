@@ -1,5 +1,11 @@
 import React from 'react'; 
 import "./CSS/about.css"
+import Radharaman from "./CSS/gallary/peple/Radharaman.png"
+import Shivani from "./CSS/gallary/peple/Shivani.jpg"
+import Anurag from "./CSS/gallary/peple/anurag.jpg"
+import Gaurav from "./CSS/gallary/peple/gaurav.jpg"
+import Lokesh from "./CSS/gallary/peple/lokesh.jpg"
+import Dungali from "./CSS/gallary/peple/dungali.jpg"
  
  
 
@@ -26,17 +32,46 @@ export default class about extends React.Component{
                    <h4> Faculty </h4>
                    <div className = "array">
                         <div className = "team_unit">
-                                <img src = "http://people.iitr.ernet.in/facultyphoto/akshafme_Dk2qDMR.jpg"/>
+                                <img alt ="Apurbba Kumar Sharma" src = "http://people.iitr.ernet.in/facultyphoto/akshafme_Dk2qDMR.jpg"/>
                                 <div className = "name">Apurbba Kumar Sharma</div>
                         </div>
                    </div>
                     <h4>PHD</h4>
 
-                    <div className = "array">
+                    <div className = "array2">
                         <div className = "team_unit">
-                                <img src = "http://people.iitr.ernet.in/facultyphoto/akshafme_Dk2qDMR.jpg"/>
-                                <div className = "name">Apurbba Kumar Sharma</div>
+                                <img alt ="Radha Raman Mishra" src = {Radharaman}/>
+                                <div className = "name">Radha Raman Mishra</div>
                         </div>
+                        
+                        <div className = "team_unit">
+                                <img alt = "Shivani Gupta" src = {Shivani}/>
+                                <div className = "name">Shivani Gupta</div>
+                        </div>
+
+                        <div className = "team_unit">
+                                <img alt = "Anurag Singh" src = {Anurag}/>
+                                <div className = "name">Anurag Singh</div>
+                        </div>
+
+                        <div className = "team_unit">
+                                <img alt  ="Gaurav Kumar" src = {Gaurav}/>
+                                <div className = "name">Gaurav Kumar</div>
+                        </div>
+
+                          <div className = "team_unit">
+                                <img alt = "Lokesh Saxena" src = {Lokesh}/>
+                                <div className = "name">Lokesh Saxena</div>
+                        </div>
+
+                          <div className = "team_unit">
+                                <img alt ="Dungali Sreehari" src = {Dungali}/>
+                                <div className = "name">Dungali Sreehari</div>
+                        </div>
+
+                        
+
+
                    </div>
  
                 </div>

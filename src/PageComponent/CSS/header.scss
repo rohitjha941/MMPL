@@ -20,13 +20,14 @@ $desktop:840px;
     grid-template-columns: 35% auto;
  
     margin:0;
-    font-size: 1.5em;
-    padding:1rem 10rem;
+    font-size: 1.25rem;
+    padding:1rem 10vw;
     z-index: 3;
 
 
     @include desktop{
         grid-template-columns: 90% 10%;
+        padding:1rem;
     }
 
     .Mobile_Menu_Button
@@ -40,7 +41,6 @@ $desktop:840px;
     div{
         h3{
             color:white;
-            font-weight: bold;
         }}
 
 

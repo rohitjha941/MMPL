@@ -6,7 +6,7 @@
     
 }
 
-$padding : 96px 10rem ;
+$padding : 96px 10vw ;
 
 
 
@@ -84,9 +84,6 @@ $background :rgb(247, 247, 247);
             
             .team_unit{
                 background:white;
-                transition:0.2s ease;
-                
-
                 padding-bottom: 18px; 
                 .name{
 
@@ -100,28 +97,48 @@ $background :rgb(247, 247, 247);
                 img{
                     width:100%;
                     padding-bottom: 18px;
-                    
-                  
-                }
-
-             
+                }             
             }
-            .team_unit:hover{
-                border:1px solid black;
-                transition:0.2s ease;
-            }
+            
         }
-        
- 
 
-
+        .array2{
+            display:  grid;
+            grid-template-columns: repeat(5, 19%); 
+            grid-column-gap: 1rem;
+            grid-row-gap: 2rem;
+    
+            @include desktop{
+                display: block; 
+                 
+            }
+            .team_unit{
+                background:white;
+                padding-bottom: 18px; 
+                .name{
+    
+                        font-weight: bold;
+                        line-height: normal;
+                        font-size: 18px;
+                        color: #000000;
+                        text-align: center;
+                }
+    
+                img{
+                    width:100%;
+                    padding-bottom: 18px;
+                }             
+            }   
+        }
     }
+}
+
 
 
 
    
  
-}
+
 
 
 

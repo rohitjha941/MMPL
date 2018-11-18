@@ -26,7 +26,7 @@
   text-align: justify;
   color: black;
   font-size: 18px;
-  padding: 96px 10rem;
+  padding: 96px 10vw;
 }
 
 .Abt .text p {
@@ -41,7 +41,7 @@
 
 .Abt .team {
   color: black;
-  padding: 96px 10rem;
+  padding: 96px 10vw;
   background: #f7f7f7;
 }
 
@@ -67,8 +67,6 @@
 
 .Abt .team .array .team_unit {
   background: white;
-  -webkit-transition: 0.2s ease;
-  transition: 0.2s ease;
   padding-bottom: 18px;
 }
 
@@ -85,14 +83,41 @@
   padding-bottom: 18px;
 }
 
-.Abt .team .array .team_unit:hover {
-  border: 1px solid black;
-  -webkit-transition: 0.2s ease;
-  transition: 0.2s ease;
+.Abt .team .array2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (19%)[5];
+      grid-template-columns: repeat(5, 19%);
+  grid-column-gap: 1rem;
+  grid-row-gap: 2rem;
+}
+
+@media (max-width: 960px) {
+  .Abt .team .array2 {
+    display: block;
+  }
+}
+
+.Abt .team .array2 .team_unit {
+  background: white;
+  padding-bottom: 18px;
+}
+
+.Abt .team .array2 .team_unit .name {
+  font-weight: bold;
+  line-height: normal;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+
+.Abt .team .array2 .team_unit img {
+  width: 100%;
+  padding-bottom: 18px;
 }
 
 .talk {
-  padding: 96px 10rem;
+  padding: 96px 10vw;
   color: black;
   font-size: 1.25rem;
 }

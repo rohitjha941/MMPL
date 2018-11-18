@@ -38,7 +38,13 @@ import { withRouter } from 'react-router-dom';
                                     <NavLink to ="/about"> About</NavLink>
                                 </li>
                            
+                                <li  className="nav-item">
+                                    <NavLink to ="/events"> Events</NavLink>
+                                </li>
                                 
+                                <li  className="nav-item">
+                                    <NavLink to ="/facilities">Facilities</NavLink>
+                                </li>
                             </ul>
                     </div>               
                  
@@ -65,6 +71,18 @@ import { withRouter } from 'react-router-dom';
                         <td>
                         <NavLink onClick = {this.hide_menu} to ="/about"> About</NavLink>
                             
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <NavLink onClick = {this.hide_menu} to ="/events"> Events</NavLink>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                        <NavLink  onClick = {this.hide_menu} to ="/facilities">Facilities</NavLink>
                         </td>
                     </tr>
 

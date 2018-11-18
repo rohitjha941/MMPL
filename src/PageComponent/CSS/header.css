@@ -10,8 +10,8 @@
   -ms-grid-columns: 35% auto;
       grid-template-columns: 35% auto;
   margin: 0;
-  font-size: 1.5em;
-  padding: 1rem 10rem;
+  font-size: 1.25rem;
+  padding: 1rem 10vw;
   z-index: 3;
 }
 
@@ -19,6 +19,7 @@
   .head {
     -ms-grid-columns: 90% 10%;
         grid-template-columns: 90% 10%;
+    padding: 1rem;
   }
 }
 
@@ -34,7 +35,6 @@
 
 .head div h3 {
   color: white;
-  font-weight: bold;
 }
 
 .head span {

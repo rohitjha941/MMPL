@@ -1,0 +1,66 @@
+
+@mixin desktop {
+    @media(max-width: 960px)
+    {
+        @content;
+    }
+    
+}
+
+$padding : 18px 10vw;
+
+.events{
+
+    padding: $padding;
+    background: rgb(247, 247, 247);
+    min-height: 81vh;
+    h2{
+        font-size: 28px;
+        color:black;
+        font-weight: 1000;
+        padding-bottom: 36px;
+        border-bottom: 4px solid darkgray;
+        display:inline-block;
+        text-align: center;
+        margin-bottom: 36px;
+        
+    }
+
+    @include desktop{
+        padding: 18px 0.5rem;
+    }
+}
+.events_array{
+
+    display: grid;
+  
+    grid-template-columns: 45% 45%;
+
+    @include desktop{
+        display: block;
+    }
+
+ 
+
+    .event_unit1, .event_unit2{
+        
+        img{
+            width:100%;
+            margin-bottom:18px; 
+        }
+       
+
+        h3{
+            text-align: center;
+            display: inline-block;
+            
+            margin-bottom:36px;            
+           
+            font-weight: bold;
+        }
+        p{
+            text-align: justify;
+            font-size: 1.125rem;
+        }
+    }
+}
