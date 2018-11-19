@@ -45,6 +45,10 @@ import { withRouter } from 'react-router-dom';
                                 <li  className="nav-item">
                                     <NavLink to ="/facilities">Facilities</NavLink>
                                 </li>
+
+                                 <li  className="nav-item">
+                                    <NavLink to ="/papers">Papers</NavLink>
+                                </li>
                             </ul>
                     </div>               
                  

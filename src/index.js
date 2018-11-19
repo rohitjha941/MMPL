@@ -4,7 +4,7 @@ import Home from "./Pages/home"
 import About from "./Pages/about"
 import Gallary from "./Pages/gallary"
 import Facility from "./Pages/facilities"
-import Research from "./Pages/research"
+import Papers  from "./Pages/paper"
 import Events from "./Pages/events"
  
  
@@ -36,9 +36,8 @@ class Test extends React.Component{
                             <Route path = "/facilities" component = {Facility} />
                             <Route path = "/gallary" component = {Gallary} />
                             <Route path = "/events" component = {Events} />
-                            
                             <Route path = "/projects" component = {Project} />
-                            
+                            <Route path = "/papers"  component = {Papers} />
                              
                         </Switch>
                         </div>
