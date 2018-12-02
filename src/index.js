@@ -11,7 +11,8 @@ import Events from "./Pages/events"
 import Header from "./PageComponent/header"
 import Footer from "./PageComponent/footer"
  
-import Project  from "./Pages/project"
+import Project  from "./Pages/project";
+import Patents from "./Pages/patents"
  
 import { BrowserRouter as Router, Route,Switch} from "react-router-dom";
  
@@ -37,6 +38,7 @@ class Test extends React.Component{
                             <Route path = "/gallary" component = {Gallary} />
                             <Route path = "/events" component = {Events} />
                             <Route path = "/projects" component = {Project} />
+                            <Route path = "/patents" component = {Patents} />
                             <Route path = "/papers"  component = {Papers} />
                              
                         </Switch>
