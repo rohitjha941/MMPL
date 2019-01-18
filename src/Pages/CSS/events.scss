@@ -1,18 +1,9 @@
 
-@mixin desktop {
-    @media(max-width: 960px)
-    {
-        @content;
-    }
-    
-}
-
-$padding : 18px 10vw;
-
+$padding : 72px 10vw;
 .events{
 
     padding: $padding;
-    background: rgb(247, 247, 247);
+    background: white;
     min-height: 81vh;
     h2{
         font-size: 28px;
@@ -23,44 +14,27 @@ $padding : 18px 10vw;
         display:inline-block;
         text-align: center;
         margin-bottom: 36px;
-        
     }
 
-    @include desktop{
-        padding: 18px 0.5rem;
-    }
+   
 }
 .events_array{
 
     display: grid;
-  
-    grid-template-columns: 45% 45%;
-
-    @include desktop{
-        display: block;
-    }
-
+    padding-top:36px;
+    grid-template-columns: 47.5% 47.5%;
+    grid-column-gap: 5vw;
+    grid-row-gap: calc(20px + 2vh);
  
-
-    .event_unit1, .event_unit2{
-        
+    .event_unit{
+        background-color: rgb(247, 247, 247);
+        padding-bottom: calc( 10px + 1vh );
         img{
-            width:100%;
-            margin-bottom:18px; 
+            width: 100%;
         }
-       
-
         h3{
             text-align: center;
-            display: inline-block;
-            
-            margin-bottom:36px;            
-           
-            font-weight: bold;
-        }
-        p{
-            text-align: justify;
-            font-size: 1.125rem;
+            padding-top:calc( 10px + 1vh );
         }
     }
 }

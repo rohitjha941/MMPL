@@ -1,25 +1,12 @@
 import React from 'react'; 
-import   "./CSS/header.css";
+import   "./CSS/header.scss";
 import  {NavLink  } from "react-router-dom"
 import { withRouter } from 'react-router-dom';
  
  
 
  class Header extends React.Component{
-    handle_menu()
-    {
-        document.getElementsByClassName("Mobile_Menu")[0].style.display = "block";
-        document.getElementById("close_button").style.display = "block";
-        document.getElementById("menu_button").style.display = "none";
-    }
-
-    hide_menu()
-    {
-        document.getElementsByClassName("Mobile_Menu")[0].style.display = "none";
-        document.getElementById("close_button").style.display = "none";
-        document.getElementById("menu_button").style.display = "block";
-
-    }
+ 
     render(){
         return (
             
@@ -47,7 +34,7 @@ import { withRouter } from 'react-router-dom';
                                 </li>
 
                                  <li  className="nav-item">
-                                    <NavLink to ="/papers">Papers</NavLink>
+                                    <NavLink to ="/papers">Publications</NavLink>
                                 </li>
 
 
@@ -59,59 +46,22 @@ import { withRouter } from 'react-router-dom';
                                  <li  className="nav-item">
                                     <NavLink to ="/projects">Projects</NavLink>
                                 </li>
+
+                                  <li  className="nav-item">
+                                    <NavLink to ="/people">People</NavLink>
+                                </li>
                             </ul>
                     </div>               
                  
                 
 
-
-                    <div className= "Mobile_Menu_Button">
-                    
-                    <i class="fas fa-bars fa-2x" id = "menu_button" onClick = {this.handle_menu}></i>
-                        <i class="fas fa-times fa-2x" id = "close_button" onClick = {this.hide_menu}></i>
-                    </div>
-
-                    <div class =  "Mobile_Menu">
-
-                     <table>
-                    <tr>
-                        <td >
-                        <NavLink  onClick = {this.hide_menu} exact to ="/"> Home</NavLink>
-
-                        </td>
-                    </tr>
-
-                     <tr>
-                        <td>
-                        <NavLink onClick = {this.hide_menu} to ="/about"> About</NavLink>
-                            
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <NavLink onClick = {this.hide_menu} to ="/events"> Events</NavLink>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                        <NavLink  onClick = {this.hide_menu} to ="/facilities">Facilities</NavLink>
-                        </td>
-                    </tr>
-
-
-                     
-                     
-                </table>
-                
-                    </div>
+  
             </div>
           
         );
     }
 }
-
+ 
 
 export default withRouter(Header);
 

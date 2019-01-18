@@ -1,12 +1,9 @@
-
 @mixin desktop {
     @media(max-width: 960px)
     {
         @content;
-    }
-    
+    }   
 }
-
 .faci_h3{
     font-size: 28px;
     color:black;
@@ -40,14 +37,10 @@
     display: inline-block;
     margin: 1rem;
     padding:3rem;
-
     @include desktop{
-         
         padding:0.5rem;
     }
-
     background: rgb(247, 247, 247);
-   
     h4{
         font-weight: bold;
         margin-bottom:18px;
@@ -55,35 +48,22 @@
     }
 
     @include desktop{
-   
-       font-size:1rem;
-       
-     }
-
+       font-size:1rem;  
+    }
     div
-    {
-      
+    { 
         div
-        {
-            
+        {       
             font-size: 1.3rem;
             color:black;
             img{
                 width:100%;
                 padding-bottom: 1rem;
                 @include desktop{
-                    width:90%;
-                 
-                   
-                 }
+                    width:90%;          
+                }
             }
             text-align: justify;
-           
- 
         }
-
-      
     }
 }
-
- 

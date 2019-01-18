@@ -1,5 +1,5 @@
 import React from "react";
-import "./CSS/facilities.css";
+import "./CSS/facilities.scss";
 import kw_amp from "./CSS/gallary/kw_amp.jpg";
 import Sintering_Furnace from "./CSS/gallary/Sintering_Furnace.jpg";
 import Microwave from "./CSS/gallary/facilities/microwave.jpg";
@@ -7,9 +7,8 @@ import Abrasive from "./CSS/gallary/facilities/abrasive.jpg";
 import Vickers from "./CSS/gallary/facilities/vickers.jpg";
 import Grinding from "./CSS/gallary/facilities/grinding.jpg";
 import Mixer from "./CSS/gallary/facilities/mixer.jpg";
-import { Tabs } from "antd";
-import "antd/dist/antd.css";
-const TabPane = Tabs.TabPane;
+ 
+ 
 
 export default class about extends React.Component {
   render() {
@@ -22,7 +21,7 @@ export default class about extends React.Component {
         <div className="main_faci">
           <div className="Machines">
             <center>
-              {" "}
+ 
               <h4>3KW Microwave Applicator</h4>
             </center>
             <div>
@@ -44,7 +43,7 @@ export default class about extends React.Component {
 
           <div className="Machines">
             <center>
-              {" "}
+ 
               <h4>Microwave Sintering Furnace</h4>
             </center>
             <div>
@@ -65,7 +64,7 @@ export default class about extends React.Component {
 
           <div className="Machines">
             <center>
-              {" "}
+ 
               <h4>Domestic Microwave Applicators</h4>
             </center>
             <div>
@@ -82,7 +81,7 @@ export default class about extends React.Component {
 
           <div className="Machines">
             <center>
-              {" "}
+      
               <h4>Powder mixer and blender</h4>
             </center>
             <div>
@@ -123,7 +122,7 @@ export default class about extends React.Component {
         <div className="main_faci">
           <div className="Machines">
             <center>
-              {" "}
+     
               <h4>Rubber Wheel Abrasive Wear Test Apparatus </h4>
             </center>
             <div>
@@ -141,7 +140,7 @@ export default class about extends React.Component {
 
           <div className="Machines">
             <center>
-              {" "}
+      
               <h4> Micro Vickers hardness Tester</h4>
             </center>
             <div>

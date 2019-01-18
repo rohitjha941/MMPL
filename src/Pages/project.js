@@ -1,5 +1,5 @@
 import React from 'react'; 
-import "./CSS/research.css"
+import "./CSS/research.scss"
 import 'antd/dist/antd.css'; 
  
 export default class about extends React.Component{

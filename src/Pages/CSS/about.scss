@@ -16,6 +16,7 @@ $background :rgb(247, 247, 247);
 
 .Abt{
    
+  
     h3{
         font-size: 28px;
         color:black;
@@ -35,11 +36,8 @@ $background :rgb(247, 247, 247);
         padding: 48px 0 48px 0;
         opacity: 0.5;
 
-        @include desktop{
-            padding : 48px 0;          
-        }
+       
     }
-
 
     .text{
         text-align: justify;
@@ -52,85 +50,11 @@ $background :rgb(247, 247, 247);
             padding-top:36px;
         }
 
-        @include desktop{
-            padding : 12px 1rem ;  
-             
-        }
+      
 
      
     }
 
-    .team{
- 
-        color:black;
-        padding:$padding ;
-        background:$background;
-
-        @include desktop{
-            padding : 48px 1rem ;  
-             
-        }
-
-        .array{
-            display:  grid;
-            grid-template-columns: 25% 25% 25% 25% ;
-            grid-column-gap: 1rem;
-
-            @include desktop{
-                display: block; 
-                 
-            }
-            
-            
-            .team_unit{
-                background:white;
-                padding-bottom: 18px; 
-                .name{
-
-                        font-weight: bold;
-                        line-height: normal;
-                        font-size: 18px;
-                        color: #000000;
-                        text-align: center;
-                }
-
-                img{
-                    width:100%;
-                    padding-bottom: 18px;
-                }             
-            }
-            
-        }
-
-        .array2{
-            display:  grid;
-            grid-template-columns: repeat(5, 19%); 
-            grid-column-gap: 1rem;
-            grid-row-gap: 2rem;
-    
-            @include desktop{
-                display: block; 
-                 
-            }
-            .team_unit{
-                background:white;
-                padding-bottom: 18px; 
-                .name{
-    
-                        font-weight: bold;
-                        line-height: normal;
-                        font-size: 18px;
-                        color: #000000;
-                        text-align: center;
-                }
-    
-                img{
-                    width:100%;
-                    padding-bottom: 18px;
-                }             
-            }   
-        }
-    }
 }
 
 

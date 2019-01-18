@@ -24,6 +24,7 @@ import { BrowserRouter as Router, Route,Switch} from "react-router-dom";
 
 
 import "./index.css"
+import People from './Pages/people';
 class Test extends React.Component{
     render(){
         return (
@@ -40,6 +41,7 @@ class Test extends React.Component{
                             <Route path = "/projects" component = {Project} />
                             <Route path = "/patents" component = {Patents} />
                             <Route path = "/papers"  component = {Papers} />
+                            <Route path = "/people" component = {People} />
                              
                         </Switch>
                         </div>

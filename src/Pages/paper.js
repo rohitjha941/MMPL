@@ -1,6 +1,5 @@
 import React from 'react'; 
-import "./CSS/paper.css"
-import { Table } from 'semantic-ui-react';
+import "./CSS/paper.scss"
  
  
  

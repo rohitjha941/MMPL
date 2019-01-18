@@ -1,87 +1,10 @@
+.home{
+    height:100vh;
+    width:100vw;
 
+    padding: 10vh 0;
 
-@mixin desktop {
-    @media(max-width: 960px)
-    {
-        @content;
-    }
-    
-}
-
-
-
-.top{
- width: 100%;
- border: 0.11rem solid black;
- border-radius: 2rem;
- margin :0.5rem;
- padding:0.4rem;
- @include desktop{
-
-    margin: 0.5rem 0 0 0;
-
-    
- }
- 
-}
-
-
- 
-.Welcome_text{
-    border : 0.05rem solid black;
-    padding:  1.5rem;
-    border-top-left-radius: 5rem;
-    border-bottom-right-radius: 5rem;
-    
-}
- 
- 
-  
- 
-.font_coursole
-{
- 
-    padding :1rem;
-    .scroll{
-        
-          
-        width:60%;
-        @include desktop{
-            height: auto;
-            width: 100%;               
-           }
-    }
-
-    @include desktop{
-        padding :1.5rem 0 0.1rem 0;
-           
-           
-       }
-
-    .slick-dots
-    {
-        color:black;
-    }
-}
-
-.teat
-{
-    height: 20rem;
-}
-.homes
-{
-    @include desktop{
-
-        margin:  0 0.8rem 0 0.8rem;
-     }
-}
-
-
-
-
-marquee{
-    color:black;
     img{
-        width:3.5rem;
+        width:50vw;
     }
 }
