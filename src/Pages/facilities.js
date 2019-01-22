@@ -7,7 +7,9 @@ import Abrasive from "./CSS/gallary/facilities/abrasive.jpg";
 import Vickers from "./CSS/gallary/facilities/vickers.jpg";
 import Grinding from "./CSS/gallary/facilities/grinding.jpg";
 import Mixer from "./CSS/gallary/facilities/mixer.jpg";
- 
+import Optical from "./CSS/gallary/facilities/optical.jpg";
+import Press from "./CSS/gallary/facilities/press.jpg";
+import Ultrasonic from "./CSS/gallary/facilities/Ultrasonic.jpg"
  
 
 export default class about extends React.Component {
@@ -31,12 +33,7 @@ export default class about extends React.Component {
                 </center>
               </div>
               <div>
-                This applicator can be used to heat the materials for casting,
-                cladding, joining and sintering purposes. Maximum power can be
-                produced 3KW at 2.45GHz frequency and in this applicator whole
-                cavity temperature can be measured with the help of sensor
-                inside the cavity. It is capable to provide rated power as per
-                requirements.
+              This applicator can generate CW (Continuous-Wave) microwaves of 3 kW or pulsed with duty selection from 10% to 90% in 10 steps at 2.45 GHz frequency. It has in-built camera, temperature and power sensors. This applicator can be used for processes such as melting, casting, cladding, joining, drilling, sintering, etc.
               </div>
             </div>
           </div>
@@ -53,11 +50,7 @@ export default class about extends React.Component {
                 </center>
               </div>
               <div>
-                This furnace is same as previous one and used to cast, and
-                sinter the metals, ceramics, polymers and composites using
-                microwave energy. This can produce total 1.45KW power at 2.45GHz
-                frequency value. It has infrared sensor located at top of the
-                cavity to measure the temperature of the surface of sample.{" "}
+              This furnace works on 230 volts and 5 KVA input power to produce microwaves of power up to 1.4 kW at 2.45 GHz frequency. Applicator cavity is water cooled to prevent the overheating of the furnace. It has infrared sensor located at top of the cavity to measure the temperature of the surface of target material. Furnace can be employed to cast and sinter the metals, ceramics, polymers and composites.
               </div>
             </div>
           </div>
@@ -65,7 +58,7 @@ export default class about extends React.Component {
           <div className="Machines">
             <center>
  
-              <h4>Domestic Microwave Applicators</h4>
+              <h4>900 W Microwave Applicators</h4>
             </center>
             <div>
               <div>
@@ -74,7 +67,7 @@ export default class about extends React.Component {
                 </center>
               </div>
               <div>
-                These are used in machining of the metals, glass and polymers.
+              This is low power applicator can generate microwaves of 900 W output power at 2.45 GHz frequency. It has five power levels (90 W-180 W-360 W-600W-900 W) corresponding to five duty cycle. This applicator facilitates automatic shut off and air vent cooling to prevent overheating of the cavity. Applicator can be used for processes such as drilling, sintering, joining, cladding, etc. 
               </div>
             </div>
           </div>
@@ -91,29 +84,45 @@ export default class about extends React.Component {
                 </center>
               </div>
               <div>
-                Application: <br />
-                • Suitable for dry mixing of products in powder form
-                <br />
-                • Easy for loading and unloading
-                <br />
-                • Easy for cleaning
-                <br />
-                • All contact parts are made out of SS quality material, as per
-                customer requirement
-                <br />
-                • Simple design requires minimum maintenance
-                <br />
-                • General structure & safety guards made out of mild steel &
-                coloured in Standard Model
-                <br />
-                • The "V" shape gives sufficient continuous movement to the
-                granules, result in good quality
-                <br />
-                • Maximum care has been taken to ensure safe operation of the
-                unit <br />
+              This V type powder mixer is suitable for mixing dry powders of different compositions with uniform distribution. Mixer can be operate at 220 V with minimum rpm of 10. This is used generally to mix the metallic and non-metallic powder for powder metallurgy (PM) processes to make the green compact.
               </div>
             </div>
           </div>
+        
+          <div className="Machines">
+            <center>
+      
+              <h4>Hydraulic Press</h4>
+            </center>
+            <div>
+              <div>
+                <center>
+                  <img  src={Press} />
+                </center>
+              </div>
+              <div>
+              This facilitates the processing of mixed powder to make cylindrical pallet. Various die can be used to make the compacts by applying maximum pressure capacity of 12 MPa. 
+              </div>
+            </div>
+          </div>
+       
+          <div className="Machines">
+            <center>
+      
+              <h4>Micro Ultrasonic Machining Setup</h4>
+            </center>
+            <div>
+              <div>
+                <center>
+                  <img  src={Ultrasonic} />
+                </center>
+              </div>
+              <div>
+              This micro-ultrasonic machining setup developed in-house, works at a frequency of 20 kHz, amplitude up to 40 µm and power of 800 W. The setup is capable of machining high aspect ratio micro-holes, micro-slots and 3D micro channels on hard and brittle materials such as glass, silicon, ceramics, etc. 
+              </div>
+            </div>
+          </div>
+       
         </div>
 
         <center>
@@ -132,8 +141,7 @@ export default class about extends React.Component {
                 </center>
               </div>
               <div>
-                This apparatus is used to test the wear resistance of the
-                specimen.
+              This apparatus is used to test the wear resistance of the specimen at various rpm and load conditions. It operates at 220 AC volts and 50 Hz frequency input power.
               </div>
             </div>
           </div>
@@ -150,21 +158,13 @@ export default class about extends React.Component {
                 </center>
               </div>
               <div>
-                Hardness test Range: 8HV-2900HV<br />
-                Amplification of microscope: 100X for observation and 400X for
-                measurement <br />
-                Max. Height of specimen: 90mm
-                <br />
-                Application: To measure the microhardness value for the micro
-                and thin specimens. This is also fit to measure the hardness for
-                hard materials like glass, ceramics etc
-              </div>
+               This tester measures the micro hardness value of specimens having maximum height of 80 mm. Hardness measuring ranges from 8 HV-2900 HV which make it capable to determine the hardness of hard materials such as ceramic and glass. In-built microscope is able to magnify the indentation up to 100X for observation and 400X for measurement purpose.</div>
             </div>
           </div>
 
           <div className="Machines">
             <center>
-              {" "}
+ 
               <h4> Grinding and Polishing Machine </h4>
             </center>
             <div>
@@ -174,12 +174,27 @@ export default class about extends React.Component {
                 </center>
               </div>
               <div>
-                This is used to grind and polish the samples before the
-                characterisation of the specimen like SEM analysis,
-                microstructure study, microhardness testing etc
-              </div>
+              This Machine is used to grind and polish the samples for characterisation analysis such as scanning electron microscope analysis, microstructure analysis, microhardness testing etc.  </div>
             </div>
           </div>
+        
+          <div className="Machines">
+            <center>
+ 
+              <h4> Optical Microscope </h4>
+            </center>
+            <div>
+              <div>
+                <center>
+                  <img src={Optical} />
+                </center>
+              </div>
+              <div>
+              This optical microscope is used to analyse the surface features of samples of various materials. Magnification power of microscope ranges from 100 X to 500 X and magnified image can be stored through inbuilt CCD camera. </div>
+            </div>
+          </div>
+        
+        
         </div>
       </>
     );

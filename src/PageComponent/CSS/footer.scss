@@ -1,59 +1,39 @@
-$primary_color :  #2699FB ;
-
-@mixin desktop {
-  @media(max-width: 960px)
-  {
-      @content;
-  }
-  
-}
-
-
-
+$primary_color :  white ;
 .foot
 {
     font-size: 0.9em;
     background-color: $primary_color;
     width:100vw;
-    color : white;
+    color : black;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 0;
+    grid-template-columns: 10% auto auto auto;
+    grid-column-gap: 5vw;
+    border-top: 1px solid rgba(0,0,0,0.1);
+
  
     left:0;
     z-index: 3;
-    padding:1rem;
+    padding:4rem 10vw;
     
-
-    @include desktop{
-      grid-template-columns: auto;
-      align-content: center;
-      align-items: center;
-      margin-top : 0.3rem;
-      padding:0.3rem;
-    }
+ 
 
     div
     {
       
-      color:white;
+      color:black;
       img{
         padding: 0;
         margin: 0;
-        width:5rem;
-        @include desktop{
-          width:4rem;
-        }
+        width: 100%;
+       
       }
       table{
         tr{
           td{
             a{
-              color:white;
+              color:black;
             }
-            @include desktop{
-              padding:0.3rem;
-            }
+            
           }
         }
       }
@@ -66,10 +46,13 @@ $primary_color :  #2699FB ;
         li{
           padding: 0;
           margin: 0;
+          
           a{
-            color:white;
+            color:black;
             padding: 0;
             margin: 0;
+            font-size: 20px;
+            opacity: 0.5;
             
           }
         }
@@ -78,29 +61,30 @@ $primary_color :  #2699FB ;
     
 }
 
-
-.row, .col
-{
-  padding: 0 !important;
-  margin: 0 !important;
-  img{
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-}
+ 
 
 
 .links , .dwn
 {
    h4{
-     font-size: 1.1rem !important;
-     color:white;
+     font-size:24px; 
+     color:black;
+     font-weight: bold;
    }
 
-   a{
-     font-size: 0.9rem !important;
-   }
-  @include desktop{
-    display:none;
-  }
+    
+ 
 }
+
+.dwn{
+  color: black;
+  font-size: 20px;
+  p{
+    opacity: 0.5;
+
+    
+  }
+   
+}
+
+ 

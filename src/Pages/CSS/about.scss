@@ -6,7 +6,7 @@
     
 }
 
-$padding : 96px 10vw ;
+$padding : 6rem 10vw ;
 
 
 
@@ -18,11 +18,11 @@ $background :rgb(247, 247, 247);
    
   
     h3{
-        font-size: 28px;
+        font-size: 1.75rem;
         color:black;
         font-weight: 1000;
-        padding-bottom: 36px;
-        border-bottom: 4px solid darkgray;
+        padding-bottom: 2.25rem;
+        border-bottom: 0.25rem solid darkgray;
         display:inline-block;
         text-align: center;
         
@@ -30,10 +30,10 @@ $background :rgb(247, 247, 247);
 
     h4{
 
-       font-size: 24px;
+       font-size: 1.5rem;
         color:black;
         font-weight: 800;
-        padding: 48px 0 48px 0;
+        padding: 3rem 0 3rem 0;
         opacity: 0.5;
 
        
@@ -43,11 +43,11 @@ $background :rgb(247, 247, 247);
         text-align: justify;
  
         color:black;
-        font-size :18px;
+        font-size :1.125rem;
         padding:$padding ;
 
         p{
-            padding-top:36px;
+            padding-top:2.25rem;
         }
 
       

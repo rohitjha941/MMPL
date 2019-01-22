@@ -10,10 +10,8 @@ import { withRouter } from 'react-router-dom';
     render(){
         return (
             
-                <div className = "head"> 
-                    <div>
-                         <h3> Microwave Materials Processing Laboratory  </h3>
-                    </div> 
+                <div id = "head" className = "head"> 
+                    
                     <div  className= "navigation">
                   
                                 <ul  className="nav justify-content-end">
@@ -49,6 +47,10 @@ import { withRouter } from 'react-router-dom';
 
                                   <li  className="nav-item">
                                     <NavLink to ="/people">People</NavLink>
+                                </li>
+
+                                <li  className="nav-item">
+                                    <NavLink to ="/gallery">Gallery</NavLink>
                                 </li>
                             </ul>
                     </div>               

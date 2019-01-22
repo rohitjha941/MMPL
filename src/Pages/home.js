@@ -1,26 +1,23 @@
 import React from 'react';
 import './CSS/home.scss';
-import { Carousel } from 'antd';
-import One from "./CSS/gallary/home/1.jpg";
-import Two from "./CSS/gallary/home/2.jpg";
+import Home_img from "./CSS/gallary/Home.png"
 
 export default class Home extends React.Component {
+	componentDidMount = ()=>{
+		let height = document.getElementById("head").offsetHeight;
+		height = window.innerHeight - height ;
+		console.log(height);
+		height = height + "px";
+
+		document.getElementById("home_img").style.height =  height
+	 
+	}
 	render() {
 		return (
             <div className="home">
 
                 <center> 
-				<Carousel autoplay>
-					<div>
-						 <img src= {One} alt = "one " />
-					</div>
-
-                    <div>
-						 <img src= {Two} alt = "one " />
-					</div>
-                
-		 
-				</Carousel>
+				 <img id ="home_img" src = {Home_img}  alt = "MMPL"/>
                 </center>
 			</div>
 		);

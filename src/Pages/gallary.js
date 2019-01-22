@@ -28,7 +28,7 @@ export default class about extends React.Component{
     render(){
         return (
 
-            <center> 
+             
                 <div className = "gal">
                     
                        <div> 
@@ -81,7 +81,7 @@ export default class about extends React.Component{
                         
 
                 </div>
-            </center>
+             
         );
     }
 }
