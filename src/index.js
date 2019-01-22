@@ -20,7 +20,7 @@ import People from "./Pages/people";
 class Test extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename="/MMPL">
         <Scroll>
           <Header />
           <div className="main">
