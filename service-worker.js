@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MMPL/precache-manifest.5b8ce23d807485408cf95c3c0d1acbc0.js"
+  "https://rohitjha941.github.io/MMPL/precache-manifest.95ab995ae177195303fac0abc79afa5a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/MMPL/index.html", {
+workbox.routing.registerNavigationRoute("https://rohitjha941.github.io/MMPL/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
