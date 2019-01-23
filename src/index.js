@@ -13,7 +13,7 @@ import Footer from "./PageComponent/footer";
 import Project from "./Pages/project";
 import Patents from "./Pages/patents";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./index.css";
 import People from "./Pages/people";
