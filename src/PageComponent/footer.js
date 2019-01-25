@@ -29,7 +29,7 @@ export default class Footer extends React.Component{
                             <li><a href = "http://csirhrdg.res.in/">CSIR</a></li>
                         </ul>
                 </div>
-
+            {/*
                 <div class = "links">
                         <h4>Follow</h4> 
                         <ul>
@@ -37,7 +37,7 @@ export default class Footer extends React.Component{
                             <li><a href = "">Facebook</a></li> 
                         </ul>
                 </div>
-
+            */}
                 <div className = "dwn">
 
                     <h4>Address</h4>

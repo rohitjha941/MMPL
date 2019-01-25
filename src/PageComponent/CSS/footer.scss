@@ -6,7 +6,7 @@ $primary_color :  white ;
     width:100vw;
     color : black;
     display: grid;
-    grid-template-columns: 10% auto auto auto;
+    grid-template-columns: auto auto auto  ;
     grid-column-gap: 5vw;
     border-top: 1px solid rgba(0,0,0,0.1);
 
@@ -24,7 +24,7 @@ $primary_color :  white ;
       img{
         padding: 0;
         margin: 0;
-        width: 100%;
+        width: 8vw;
        
       }
       table{

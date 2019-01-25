@@ -48,8 +48,8 @@ export default class about extends React.Component {
           Mechanical and Industrial Engineering Department (West Block) <br />
           Indian Institute of Technology Roorkee Uttarakhand-247667 <br />
           <div className="h3">Email:</div>
-          mmpl.iitr@gmail.com <br />
-          <div className="h3">Extension:</div> 6620
+          akshafme[at]iitr.ac.in<br />
+          <div className="h3">Extension:</div> 01332- 286620
         </div>
 
       </div>

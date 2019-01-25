@@ -62,6 +62,7 @@ export default class People extends Component {
 					</center>
 					<h4> Faculty </h4>
 					<div className="array">
+					<a target= "_blank" rel="noopener noreferrer" href = "https://www.iitr.ac.in/departments/ME/pages/People+Faculty+akshafme.html"> 
 						<div className="team_unit">
 							<img
 								alt="Apurbba Kumar Sharma"
@@ -69,6 +70,7 @@ export default class People extends Component {
 							/>
 							<div className="name">Apurbba Kumar Sharma</div>
 						</div>
+						</a>
 					</div>
 					<h4>PHD</h4>
 
