@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/MMPL/static/media/press.39e90cc5.jpg"
   },
   {
-    "revision": "fc6777e574222cf7cfc3",
-    "url": "/MMPL/static/css/main.842295eb.chunk.css"
+    "revision": "be04b2047b5c3b8a9540",
+    "url": "/MMPL/static/css/main.ea1d3653.chunk.css"
   },
   {
     "revision": "ab91b66f6b8fe9b5a95df8e99b76f1a7",
@@ -112,8 +112,8 @@ self.__precacheManifest = [
     "url": "/MMPL/static/media/optical.bb914ab9.jpg"
   },
   {
-    "revision": "fc6777e574222cf7cfc3",
-    "url": "/MMPL/static/js/main.fc6777e5.chunk.js"
+    "revision": "be04b2047b5c3b8a9540",
+    "url": "/MMPL/static/js/main.be04b204.chunk.js"
   },
   {
     "revision": "8edad6e79f5259833c174be0599088dd",
@@ -224,7 +224,7 @@ self.__precacheManifest = [
     "url": "/MMPL/static/css/1.8ebccb0a.chunk.css"
   },
   {
-    "revision": "e9494957424ccbe19e7e90f24fece4a6",
+    "revision": "c265410ed2a409341e7d4cb13877edaf",
     "url": "/MMPL/index.html"
   }
 ];

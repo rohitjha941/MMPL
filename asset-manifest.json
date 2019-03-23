@@ -1,7 +1,7 @@
 {
-  "main.css": "/MMPL/static/css/main.842295eb.chunk.css",
-  "main.js": "/MMPL/static/js/main.fc6777e5.chunk.js",
-  "main.js.map": "/MMPL/static/js/main.fc6777e5.chunk.js.map",
+  "main.css": "/MMPL/static/css/main.ea1d3653.chunk.css",
+  "main.js": "/MMPL/static/js/main.be04b204.chunk.js",
+  "main.js.map": "/MMPL/static/js/main.be04b204.chunk.js.map",
   "static/css/1.8ebccb0a.chunk.css": "/MMPL/static/css/1.8ebccb0a.chunk.css",
   "static/js/1.3e979618.chunk.js": "/MMPL/static/js/1.3e979618.chunk.js",
   "static/js/1.3e979618.chunk.js.map": "/MMPL/static/js/1.3e979618.chunk.js.map",
@@ -58,9 +58,9 @@
   "static/media/Dheeraj.jpg": "/MMPL/static/media/Dheeraj.8ed278ec.jpg",
   "static/media/Srinath.jpg": "/MMPL/static/media/Srinath.32d2c12a.jpg",
   "static/media/Rajesh.png": "/MMPL/static/media/Rajesh.ab91b66f.png",
-  "static/css/main.842295eb.chunk.css.map": "/MMPL/static/css/main.842295eb.chunk.css.map",
+  "static/css/main.ea1d3653.chunk.css.map": "/MMPL/static/css/main.ea1d3653.chunk.css.map",
   "static/css/1.8ebccb0a.chunk.css.map": "/MMPL/static/css/1.8ebccb0a.chunk.css.map",
   "index.html": "/MMPL/index.html",
-  "precache-manifest.ce3b3fc59584cdbd78a15139150c5a22.js": "/MMPL/precache-manifest.ce3b3fc59584cdbd78a15139150c5a22.js",
+  "precache-manifest.176fbc180a6f302feec52be3088b13c8.js": "/MMPL/precache-manifest.176fbc180a6f302feec52be3088b13c8.js",
   "service-worker.js": "/MMPL/service-worker.js"
 }
