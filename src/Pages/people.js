@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
-import Radharaman from './CSS/gallary/peple/Radharaman.png';
-import Shivani from './CSS/gallary/peple/Shivani.jpg';
+import Radharaman from './CSS/gallary/peple/radharaman.jpg';
+import Shivani from './CSS/gallary/peple/shivani.jpg';
 import Anurag from './CSS/gallary/peple/anurag.jpg';
 import Gaurav from './CSS/gallary/peple/gaurav.jpg';
 import Lokesh from './CSS/gallary/peple/lokesh.jpg';
 import Dungali from './CSS/gallary/peple/dungali.jpg';
-import Mudimallana from './CSS/gallary/peple/Mudimallana.jpg';
-import Sunny from './CSS/gallary/peple/Sunny.jpg';
-import Nitin from './CSS/gallary/peple/nitin.png';
-import Gudipadu from './CSS/gallary/peple/Gudipadu.png';
-import Manjot from './CSS/gallary/peple/Manjot.jpg';
+import Mudimallana from './CSS/gallary/peple/mudimallana.jpg';
+import Sunny from './CSS/gallary/peple/sunny.jpg';
+import Nitin from './CSS/gallary/peple/nitin.jpg';
+import Gudipadu from './CSS/gallary/peple/gudipadu.jpg';
+import Manjot from './CSS/gallary/peple/manjot.jpg';
 import Amit from './CSS/gallary/peple/amit.jpg';
 import Jawalkar from './CSS/gallary/peple/jawalkar.jpg';
-import Vivek from './CSS/gallary/peple/Vivek.jpg';
-import Dheeraj from './CSS/gallary/peple/Dheeraj.jpg';
-import Srinath from './CSS/gallary/peple/Srinath.jpg';
-import Rajesh from './CSS/gallary/peple/Rajesh.png';
+import Vivek from './CSS/gallary/peple/vivek.jpg';
+import Dheeraj from './CSS/gallary/peple/dheeraj.jpg';
+import Srinath from './CSS/gallary/peple/srinath.jpg';
+import Rajesh from './CSS/gallary/peple/rajesh.jpg';
 import './CSS/team.scss';
 
 import { Modal, Button } from 'antd';
@@ -66,7 +66,7 @@ export default class People extends Component {
 						<div className="team_unit">
 							<img
 								alt="Apurbba Kumar Sharma"
-								src="http://people.iitr.ernet.in/facultyphoto/akshafme_Dk2qDMR.jpg"
+								src="http://people.iitr.ernet.in/facultyphoto/akshafme_3.jpg"
 							/>
 							<div className="name">Apurbba Kumar Sharma</div>
 						</div>

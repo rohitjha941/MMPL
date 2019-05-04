@@ -1,7 +1,7 @@
  .gal {
     column-count: 3;
     column-gap: 0;
-    padding:48px 10vw;
+    padding:3rem 10vw;
 
      div {
          background-color: #eee;
@@ -12,7 +12,7 @@
          img {
              width: 100%;
              margin: 0;
-             border : 2px solid rgba(57,57,57,0.1);
+             border : 0.125rem solid rgba(57,57,57,0.1);
              
          }
      }

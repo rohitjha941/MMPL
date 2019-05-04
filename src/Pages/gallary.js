@@ -3,12 +3,12 @@ import "./CSS/gallary.scss"
 
 
 
-import img1 from "./CSS/gallary/gallary/1.JPG";
-import img2 from "./CSS/gallary/gallary/2.JPG";
-import img3 from "./CSS/gallary/gallary/3.JPG";
-import img4 from "./CSS/gallary/gallary/4.JPG";
-import img5 from "./CSS/gallary/gallary/5.JPG";
-import img6 from "./CSS/gallary/gallary/6.JPG";
+import img1 from "./CSS/gallary/gallary/1.jpg";
+import img2 from "./CSS/gallary/gallary/2.jpg";
+import img3 from "./CSS/gallary/gallary/3.jpg";
+import img4 from "./CSS/gallary/gallary/4.jpg";
+import img5 from "./CSS/gallary/gallary/5.jpg";
+import img6 from "./CSS/gallary/gallary/6.jpg";
 import img7 from "./CSS/gallary/gallary/7.jpg";
 import img8 from "./CSS/gallary/gallary/8.jpg";
 import img9 from "./CSS/gallary/gallary/9.jpg";
